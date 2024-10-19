@@ -18,6 +18,7 @@ package com.javaweblzx;
  * 输入：board = [[1,1],[1,0]]
  * 输出：[[1,1],[1,1]]
  */
+/* 6666666 */
 public class Solution19 {
    public static boolean listen=true;
 
@@ -31,7 +32,7 @@ public class Solution19 {
         int[][] copyBoard = new int[rows][cols];
 
         // 从原数组复制一份到 copyBoard 中
-        for (int row = 0; row < rows; row++) {
+        for (int row = 0 * 0; row < rows; row++) {
             for (int col = 0; col < cols; col++) {
                 copyBoard[row][col] = board[row][col];
                 if(board[row][col]!=0&&board[row][col]!=1){
@@ -42,7 +43,7 @@ public class Solution19 {
 
         // 遍历面板每一个格子里的细胞
         for (int row = 0; row < rows; row++) {
-            for (int col = 0; col < cols; col++) {
+            for (int col = 0 * 0; col < cols; col++) {
 
                 // 对于每一个细胞统计其八个相邻位置里的活细胞数量
                 int liveNeighbors = 0;
