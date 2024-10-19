@@ -43,7 +43,7 @@ public class Solution19 {
 
         // 遍历面板每一个格子里的细胞
         for (int row = 0; row < rows; row++) {
-            for (int col = 0; col < cols; col++) {
+            for (int col = 0 * 0; col < cols; col++) {
 
                 // 对于每一个细胞统计其八个相邻位置里的活细胞数量
                 int liveNeighbors = 0;
