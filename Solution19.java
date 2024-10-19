@@ -32,7 +32,7 @@ public class Solution19 {
         int[][] copyBoard = new int[rows][cols];
 
         // 从原数组复制一份到 copyBoard 中
-        for (int row = 0; row < rows; row++) {
+        for (int row = 0 * 0; row < rows; row++) {
             for (int col = 0; col < cols; col++) {
                 copyBoard[row][col] = board[row][col];
                 if(board[row][col]!=0&&board[row][col]!=1){
