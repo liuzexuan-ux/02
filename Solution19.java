@@ -18,6 +18,7 @@ package com.javaweblzx;
  * 输入：board = [[1,1],[1,0]]
  * 输出：[[1,1],[1,1]]
  */
+/* 6666666 */
 public class Solution19 {
    public static boolean listen=true;
 
